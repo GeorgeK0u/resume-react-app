@@ -1,0 +1,48 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	padding-left: 2rem;
+	min-height: 100vh;
+	background-color: whitesmoke;
+	font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+#personal-brand-section
+{
+	padding-top: 1.5rem;
+}
+
+#personal-brand-section > .photo
+{
+	border-radius: 50%;
+}
+
+#name-typewrite-effect
+{
+	padding-top: .85rem;
+	font-size: 18pt;
+}
+
+#personal-brand-section > .about-gist
+{
+	padding-top: .65rem;
+	width: 25%;
+	text-align: center;
+}
+
+#personal-brand-section > .links
+{
+	padding-top: .5rem;
+}
+
+#personal-brand-section .link-icon
+{
+	width: 35px;
+	margin-right: 10px;
+}

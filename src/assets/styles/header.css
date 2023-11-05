@@ -1,0 +1,21 @@
+header
+{
+	padding-top: 1rem;
+}
+
+.header-nav-item
+{
+	padding-right: 25px;
+	font-size: 1.15rem;
+	background-color: transparent;
+	border: none;
+}
+.header-nav-item:disabled
+{
+	color: #555;
+}
+.header-nav-item:not(:disabled):hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}

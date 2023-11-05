@@ -1,0 +1,17 @@
+.nav-bar
+{
+	display: flex;
+	align-items: center;
+}
+
+.centered-h
+{
+	display: flex;
+	justify-content: center;
+}
+.centered-v
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
