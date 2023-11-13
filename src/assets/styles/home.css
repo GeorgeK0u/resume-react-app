@@ -46,3 +46,27 @@ body
 	width: 35px;
 	margin-right: 10px;
 }
+
+.personal-project-item
+{
+	margin-top: 1rem;
+	padding: 10px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 14vw;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.personal-project-name
+{
+	font-size: 14pt;
+	text-align: center;
+}
+
+.personal-project-gist
+{
+	padding: .65rem 1rem 0;
+}

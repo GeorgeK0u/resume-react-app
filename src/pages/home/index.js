@@ -39,7 +39,7 @@ class PersonalBrand extends React.Component
 				<img className='photo' src={portraitSrc} alt='me'/>
 				<div id='name-typewrite-effect' className='typewrite-effect'></div>
 				<p className='about-gist'>
-					Junior developer looking forward for job oportunities. No prior work experience, but have built some personal projects.
+					Junior developer looking forward for job oportunities. No prior work experience, but I have built some personal projects.
 				</p>
 				<div className='links nav-bar'>
 					<a className='link' href='https://www.linkedin.com/in/giorgos-kountouris' target='_blank'>
@@ -57,12 +57,40 @@ class PersonalBrand extends React.Component
 	}
 }
 
+function Projects()
+{
+	const projects = [
+		{
+			id: 0,
+			name: 'Account Manager',
+			gist: 'A cool app to save all website login info and copy it fast and efficiently.'
+		}
+	];
+	const projectItems = projects.map((project) =>
+			{
+				return (
+					<li key={project.id} className='personal-project-item'>
+						<div className='personal-project-name'>{project.name}</div>
+						<div className='personal-project-gist'>{project.gist}</div>
+					</li>
+				);
+			}
+		);
+	return (
+		<>
+			<div className='header'>Personal projects</div>
+			<ul>{projectItems}</ul>
+		</>
+	);
+}
+
 function Home()
 {
 	return (
 		<>
 			<Header />
 			<PersonalBrand />
+			<Projects />
 		</>
 	);
 }
