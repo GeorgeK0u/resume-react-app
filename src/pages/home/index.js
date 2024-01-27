@@ -39,7 +39,7 @@ class PersonalBrand extends React.Component
 				<img className='photo' src={portraitSrc} alt='me'/>
 				<div id='name-typewrite-effect' className='typewrite-effect'></div>
 				<p className='about-gist'>
-					Junior developer looking forward for job oportunities. No prior work experience, but I have built some personal projects.
+					Junior developer looking forward for job oportunities. No prior work experience, but I have developed a few personal projects.
 				</p>
 				<div className='links nav-bar'>
 					<a className='link' href='https://www.linkedin.com/in/giorgos-kountouris' target='_blank'>
