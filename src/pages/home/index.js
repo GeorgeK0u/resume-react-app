@@ -4,7 +4,6 @@ import '../../assets/styles/home.css'
 import portraitSrc from '../../assets/imgs/portrait.jpg'
 import linkedinIcon from '../../assets/imgs/linkedin-icon.jpeg'
 import githubIcon from '../../assets/imgs/github-icon.jpeg'
-import gmailIcon from '../../assets/imgs/gmail-icon.jpeg'
 
 function startTypewriteInterval()
 {
@@ -38,18 +37,27 @@ class PersonalBrand extends React.Component
 			<section id='personal-brand-section' className='centered-v'>
 				<img className='photo' src={portraitSrc} alt='me'/>
 				<div id='name-typewrite-effect' className='typewrite-effect'></div>
-				<p className='about-gist'>
-					Junior developer looking forward for job oportunities. No prior work experience, but I have developed a few personal projects.
-				</p>
+				<div className='contact-info'>
+					<div id='mail-wrapper'>
+						<span>giorgos</span>
+						<span>.kountouris0</span>
+						<span>@gmail.com</span>
+					</div>
+					<div id='phone-wrapper'>
+						<span>(+30) </span>
+						<span>697</span>
+						<span>-</span>
+						<span>167</span>
+						<span>-</span>
+						<span>1477</span>
+					</div>
+				</div>
 				<div className='links nav-bar'>
 					<a className='link' href='https://www.linkedin.com/in/giorgos-kountouris' target='_blank'>
 						<img className='link-icon' src={linkedinIcon} alt='LinkedIn'/>
 					</a>
 					<a className='link' href='https://github.com/GeorgeK0u' target='_blank'>
 						<img className='link-icon' src={githubIcon} alt='GitHub'/>
-					</a>
-					<a className='link' href='mailto:giorgos.kountouris0@gmail.com' target='_blank'>
-						<img className='link-icon' src={gmailIcon} alt='Gmail'/>
 					</a>
 				</div>
 			</section>

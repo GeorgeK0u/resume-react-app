@@ -8,7 +8,6 @@ function Header()
 		<header>
 			<nav className='nav-bar'>
 				<button className='header-nav-item' onClick={() => go_to('/')} disabled={is_nav_item_active('/')}>Home</button>
-				<button className='header-nav-item' onClick={() => go_to('/blog')} disabled={is_nav_item_active('/blog')}>Blog</button>
 			</nav>
 		</header>
 	);

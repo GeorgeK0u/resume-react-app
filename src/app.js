@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/index.js'
-import Blog from './pages/blog/index.js'
 
 function App()
 {
@@ -8,7 +7,6 @@ function App()
 		<BrowserRouter>
 			<Routes>
 				<Route path='/' element={<Home />}/>
-				<Route path='/blog' element={<Blog />}/>
 			</Routes>
 		</BrowserRouter>
 	);

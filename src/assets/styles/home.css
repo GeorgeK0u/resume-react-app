@@ -16,6 +16,7 @@ body
 #personal-brand-section
 {
 	padding-top: 1.5rem;
+	text-align: center;
 }
 
 #personal-brand-section > .photo
@@ -29,11 +30,14 @@ body
 	font-size: 18pt;
 }
 
-#personal-brand-section > .about-gist
+#personal-brand-section > .contact-info
 {
-	padding-top: .65rem;
-	width: 25%;
-	text-align: center;
+	padding-top: .85rem;
+}
+#personal-brand-section > .contact-info > *
+{
+	padding-top: .5rem;
+	font-size: 12pt;
 }
 
 #personal-brand-section > .links
