@@ -7,70 +7,21 @@
 
 body
 {
-	padding-left: 2rem;
 	min-height: 100vh;
 	background-color: whitesmoke;
 	font-family: Arial, 'Times New Roman', Times, serif;
 }
 
-#personal-brand-section
+#resume-wrapper
 {
-	padding-top: 1.5rem;
-	text-align: center;
-}
-
-#personal-brand-section > .photo
-{
-	border-radius: 50%;
-}
-
-#name-typewrite-effect
-{
-	padding-top: .85rem;
-	font-size: 18pt;
-}
-
-#personal-brand-section > .contact-info
-{
-	padding-top: .85rem;
-}
-#personal-brand-section > .contact-info > *
-{
-	padding-top: .5rem;
-	font-size: 12pt;
-}
-
-#personal-brand-section > .links
-{
-	padding-top: .5rem;
-}
-
-#personal-brand-section .link-icon
-{
-	width: 35px;
-	margin-right: 10px;
-}
-
-.personal-project-item
-{
-	margin-top: 1rem;
-	padding: 10px;
-	list-style-type: none;
 	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 14vw;
-	border: 1px solid black;
-	border-radius: 8px;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 2vw;
+	padding-top: 5vh;
 }
 
-.personal-project-name
+#details-wrapper
 {
-	font-size: 14pt;
-	text-align: center;
-}
-
-.personal-project-gist
-{
-	padding: .65rem 1rem 0;
+	padding-left: 5vw;
 }
