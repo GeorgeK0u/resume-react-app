@@ -1,9 +1,3 @@
-.nav-bar
-{
-	display: flex;
-	align-items: center;
-}
-
 .centered-h
 {
 	display: flex;
@@ -20,6 +14,12 @@
 {
 	padding-top: 2rem;
 	text-transform: capitalize;
-	font-size: 16pt;
+	font-size: 25pt;
 	font-weight: bold;
+}
+.subheader
+{
+	padding-top: 2rem;
+	text-transform: capitalize;
+	font-size: 20pt;
 }
