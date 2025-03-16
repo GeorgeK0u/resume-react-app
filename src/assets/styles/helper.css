@@ -1,15 +1,3 @@
-.centered-h
-{
-	display: flex;
-	justify-content: center;
-}
-.centered-v
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .header
 {
 	padding-top: 2rem;
