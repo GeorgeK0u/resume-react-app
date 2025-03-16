@@ -1,0 +1,23 @@
+#personal-brand-wrapper
+{
+	display: flex;
+	align-items: flex-end;
+	height: fit-content;
+}
+
+#name-typewrite-effect
+{
+	font-size: 28pt;
+}
+
+.link
+{
+	display: inline-block;
+	width: 2rem;
+	margin-left: 1rem;
+}
+.link-icon
+{
+	width: 100%;
+	height: auto;
+}
