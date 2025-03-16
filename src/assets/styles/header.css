@@ -1,21 +1,13 @@
 header
 {
-	padding-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem 1vw;
 }
 
-.header-nav-item
+#header-logo
 {
-	padding-right: 25px;
-	font-size: 1.15rem;
-	background-color: transparent;
-	border: none;
-}
-.header-nav-item:disabled
-{
-	color: #555;
-}
-.header-nav-item:not(:disabled):hover
-{
-	text-decoration: underline;
-	cursor: pointer;
+	font-size: 28pt;
+	font-style: italic;
 }
