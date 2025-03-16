@@ -1,0 +1,33 @@
+#education-wrapper
+{
+	padding-top: 1rem;
+}
+
+.education-item-wrapper
+{
+	padding-top: 1rem;
+}
+
+.education-item-header-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid black;
+	width: fit-content;
+	padding-right: 1rem;
+}
+.education-item-icon
+{
+	width: 2rem;
+	margin-right: 1vw;
+}
+.education-item-title
+{
+	padding-top: .25rem;
+}
+.education-item-place
+{
+	padding-top: .15rem;
+	color: grey;
+}
