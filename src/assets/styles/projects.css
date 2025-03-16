@@ -1,0 +1,39 @@
+#projects-wrapper
+{
+	padding-top: 1rem;
+}
+
+#project-items-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.project-item-wrapper
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	margin: 1rem;
+	width: fit-content;
+	max-width: 15vw;
+	border: 1px solid grey;
+	border-radius: 8px;
+	background-color: snow;
+	overflow-x: auto;
+}
+.project-item-name
+{
+	align-self: center;
+	color: #333;
+	font-size: 18pt;
+}
+.project-item-desc
+{
+	font-size: 14pt;
+}
+.project-link
+{
+	color: #333;
+}
